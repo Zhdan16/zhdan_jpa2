@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.Scanner;
 
 public class DeleteValue {
-    public static void main(String[] args) {
+    public void start (){
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("main");
         EntityManager manager = factory.createEntityManager();
 

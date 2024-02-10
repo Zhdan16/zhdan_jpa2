@@ -11,7 +11,7 @@ import zhdans.jpa2.entity.Value;
 import java.util.Scanner;
 
 public class CreateProduct {
-    public static void main(String[] args) {
+    public  void start(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите id категории: ");
